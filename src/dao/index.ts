@@ -1,1 +1,1 @@
-export * from './transaction.dao'
+export * from './transaction.dao';

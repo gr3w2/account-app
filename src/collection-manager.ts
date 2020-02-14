@@ -1,26 +1,26 @@
-import { Collection } from './collection'
+import { Collection } from './collection';
 
 export class CollectionManager {
-  private _collections: Array<Collection>
+  private _collections: Array<Collection>;
 
   constructor() {
-    this._collections = []
+    this._collections = [];
   }
 
   public createCollection<Entity = any>(): Collection<Entity> {
-    const collection = new Collection<Entity>()
-    collection.start()
+    const collection = new Collection<Entity>();
+    collection.start();
 
-    this._collections.push(collection)
+    this._collections.push(collection);
 
-    return collection
+    return collection;
   }
 
   public stop() {
     for (const collection of this._collections) {
-      collection.stop()
+      collection.stop();
     }
 
-    this._collections.length = 0
+    this._collections.length = 0;
   }
 }

@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'express'
+import { Request, Response, NextFunction } from 'express';
 
 export abstract class Middleware {
   public abstract handle(
@@ -6,5 +6,5 @@ export abstract class Middleware {
     req: Request | Response,
     res: Response | NextFunction,
     next?: NextFunction,
-  ): void
+  ): void;
 }
