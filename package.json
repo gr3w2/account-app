@@ -6,8 +6,6 @@
   "scripts": {
     "build": "if [ -d dist ]; then rm -Rf dist; fi && tsc",
     "lint": "tslint '{src/**/*.ts,test/**/*.ts}' --fix",
-    "test": "NODE_ENV=test mocha",
-    "test:coverage": "NODE_ENV=test nyc --reporter=text mocha",
     "prettier": "prettier \"src/**/*.ts\" --write",
     "start": "npm run build && node dist/index"
   },
