@@ -1,0 +1,19 @@
+{
+  "name": "account-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.ts",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gr3w2/account-app.git"
+  },
+  "author": "Artem Kanaki",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gr3w2/account-app/issues"
+  },
+  "homepage": "https://github.com/gr3w2/account-app#readme"
+}
