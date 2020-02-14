@@ -11,7 +11,7 @@
     "curly": true,
     "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
     "ordered-imports": false,
-    "variable-name": [true, "ban-keywords", "check-format"],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
     "object-literal-sort-keys": false,
     "no-namespace": false,
     "no-return-await": true,
@@ -21,6 +21,6 @@
     "triple-equals": [true, "allow-null-check", "allow-undefined-check"],
     "switch-default": true,
     "prefer-template": true,
-    "semicolon": [true, "never"]
+    "semicolon": [true, "always"]
   }
 }
